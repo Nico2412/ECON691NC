@@ -35,7 +35,6 @@ plot(covidIL$Date, covidIL$pc_cases,
      ylab="",
      type="l",
      col="blue")
-     
-     
+
      
      
