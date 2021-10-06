@@ -10,7 +10,7 @@ attach(covidIL)
 
 DIF<-function(Date){
   temp<-((Date-lag(Date))/lag(Date))
-  return(round(temp,4))
+  return(round(temp2,4))
 }   ####this is the function i used##
 
 
@@ -104,6 +104,7 @@ plot(covidIL$Date, covidIL$PercNew_test,
      ylim = c(0,8.5),
      xlim = as.Date(c("2020-03-10","2021-08-25")),
      col="red") 
+
 
 
 
